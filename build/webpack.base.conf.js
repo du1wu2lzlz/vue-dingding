@@ -12,7 +12,7 @@ function resolve (dir) {
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
-  devServer: {   //接入钉钉修改
+  devServer: {   //配合钉钉本地测试
     disableHostCheck: true,
   },
   entry: {
